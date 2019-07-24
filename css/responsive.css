@@ -1,0 +1,77 @@
+@media (max-width: 576px) { 
+	.footer-bottom .footer-right li {
+		padding: 0px 20px 0px 0px;
+		float: left;
+	}
+	.subscribe .form-control {
+		margin-right: 10px;
+	}
+}
+
+
+
+@media (max-width: 767px) { 
+	.counter-section .counter-single {
+		margin-bottom: 40px;
+	}
+	.portfolio-section .filter-button-group .btn-group {
+		display:block!important;
+	}
+
+	.team-section .team-single .img-fluid {
+		width: 100%;
+	}
+	.contact-section .contact-info{
+		margin-top: 50px;
+	}
+	.footer-top .footer-single{
+		margin-bottom: 50px;
+	}
+}
+
+
+
+@media (max-width: 991px) { 
+	.navbar-light .navbar-toggler .fas {
+		color: #EA586F;
+		border: 1px solid #EA586F;
+		padding: 6px 10px;
+		border-radius: 5px;
+	}
+	.navbar-collapse {
+		background-color: #fff;
+		padding-left: 50px;
+	}
+	.scroll-nav.navbar-light .navbar-nav .nav-link {
+		color: #000;
+	}
+	.portfolio-section .portfolio-single:hover.portfolio-single::before {
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left:0%;
+	}
+	.portfolio-section .sub-title {
+		margin: 0px 5px;
+		top: 35%;
+	}
+
+}
+
+
+
+
+@media (max-width: 1200px) { 
+	.portfolio-section .filter-button-group {
+		margin-left:0;
+		transform: translateX(0);
+	}
+}
+
+
+
+@media (min-width: 1200px) { 
+
+
+}
+

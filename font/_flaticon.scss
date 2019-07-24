@@ -1,0 +1,70 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/06/2019 20:49
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-paper-plane:before { content: "\f100"; }
+.flaticon-pc-monitor:before { content: "\f101"; }
+.flaticon-computer:before { content: "\f102"; }
+.flaticon-smartphone:before { content: "\f103"; }
+.flaticon-mobile-phone:before { content: "\f104"; }
+.flaticon-like:before { content: "\f105"; }
+.flaticon-heart:before { content: "\f106"; }
+.flaticon-calculator:before { content: "\f107"; }
+.flaticon-calculator-1:before { content: "\f108"; }
+.flaticon-school:before { content: "\f109"; }
+.flaticon-calculator-2:before { content: "\f10a"; }
+.flaticon-calculator-3:before { content: "\f10b"; }
+.flaticon-calculator-4:before { content: "\f10c"; }
+.flaticon-pie-chart:before { content: "\f10d"; }
+.flaticon-brush:before { content: "\f10e"; }
+    
+    $font-Flaticon-paper-plane: "\f100";
+    $font-Flaticon-pc-monitor: "\f101";
+    $font-Flaticon-computer: "\f102";
+    $font-Flaticon-smartphone: "\f103";
+    $font-Flaticon-mobile-phone: "\f104";
+    $font-Flaticon-like: "\f105";
+    $font-Flaticon-heart: "\f106";
+    $font-Flaticon-calculator: "\f107";
+    $font-Flaticon-calculator-1: "\f108";
+    $font-Flaticon-school: "\f109";
+    $font-Flaticon-calculator-2: "\f10a";
+    $font-Flaticon-calculator-3: "\f10b";
+    $font-Flaticon-calculator-4: "\f10c";
+    $font-Flaticon-pie-chart: "\f10d";
+    $font-Flaticon-brush: "\f10e";
