@@ -27,6 +27,12 @@
 	.footer-top .footer-single{
 		margin-bottom: 50px;
 	}
+	.slaider .carousel-caption h5 {
+		font-size: 40px;
+	}
+	.slaider .carousel-caption p {
+		display: none;
+	}
 }
 
 
